@@ -424,8 +424,8 @@
         <span class="about-stat-value">3rd in Cohort — 96</span>
       </div>
       <div class="about-stat">
-        <span class="about-stat-label">Trading & Market Making</span>
-        <span class="about-stat-value">5th in Cohort — 85</span>
+        <span class="about-stat-label">Data Visualisation & Comms</span>
+        <span class="about-stat-value">5th in Cohort — 92</span>
       </div>
       <div class="about-stat">
         <span class="about-stat-label">ATAR</span>
@@ -449,55 +449,77 @@
 
   <div class="projects-grid">
 
-    <!-- FEATURED: Copper Futures -->
+    <!-- FEATURED: COVID Predictive Modelling -->
     <div class="project-card featured">
       <div class="featured-left">
-        <span class="project-cat">Quantitative Finance · Trading</span>
-        <h3 class="project-title">Quantitative Trading Strategy – High Grade Copper Futures</h3>
-        <span class="project-date">November 2025</span>
-        <p class="project-desc">Designed and implemented a Macro-Factor &amp; Carry-Filtered trading strategy in Python, integrating macroeconomic signals with futures-carry indicators and tested across in-sample (2024) and out-of-sample (2025) data. Fine-tuned execution assumptions using order book and market microstructure analysis, with training from experts at Susquehanna, Cboe, and Nine Mile Financial.</p>
+        <span class="project-cat">Data Science · Predictive Modelling</span>
+        <h3 class="project-title">Predictive Modelling of COVID-19 Mortality Risk</h3>
+        <span class="project-date">July 2024</span>
+        <p class="project-desc">Developed and validated a full machine learning pipeline to estimate patient mortality risk from a large real-world healthcare dataset, delivering actionable insights for resource allocation in the healthcare sector. Applied rigorous model selection, cross-validation and hyperparameter tuning across a broad suite of algorithms.</p>
         <div class="project-tags">
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">LASSO</span>
+          <span class="project-tag">Random Forest</span>
+          <span class="project-tag">Gradient Boosting</span>
+          <span class="project-tag">Neural Networks</span>
           <span class="project-tag">Python</span>
-          <span class="project-tag">Backtesting</span>
-          <span class="project-tag">Futures</span>
-          <span class="project-tag">Macro Signals</span>
-          <span class="project-tag">Volatility Regimes</span>
+          <span class="project-tag">R</span>
         </div>
       </div>
       <div class="featured-right">
         <ul class="project-highlights">
-          <li>Dynamic position sizing and 3-sigma shock detection to filter tariff shock regimes</li>
-          <li>Boosted out-of-sample returns from 2.56% → 10.2% through engine optimisation</li>
-          <li>Raised profit factor from 0.67 → 4.0</li>
-          <li>Reduced maximum drawdown from 4.14% → 0.64%</li>
+          <li>EDA &amp; feature engineering reducing high-dimensional predictors to a parsimonious set via correlation analysis</li>
+          <li>Compared GLMs, splines, decision trees, neural networks, LASSO, gradient boosting &amp; Random Forest</li>
+          <li>10-fold cross-validation &amp; hyperparameter tuning; optimal Spline Model selected</li>
+          <li>Identified demographic disparities: male mortality 41.7% vs female 38.9%</li>
         </ul>
         <div class="featured-metric">
           <div class="metric-box">
-            <span class="metric-val">10.2%</span>
-            <span class="metric-label">OOS Return</span>
+            <span class="metric-val">0.77</span>
+            <span class="metric-label">F1 Score</span>
           </div>
           <div class="metric-box">
-            <span class="metric-val">4.0×</span>
-            <span class="metric-label">Profit Factor</span>
+            <span class="metric-val">0.78</span>
+            <span class="metric-label">AUC</span>
           </div>
           <div class="metric-box">
-            <span class="metric-val">0.64%</span>
-            <span class="metric-label">Max Drawdown</span>
+            <span class="metric-val">0.27</span>
+            <span class="metric-label">MSE</span>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Copper Futures -->
+    <div class="project-card">
+      <span class="project-cat">Quantitative Finance · Trading</span>
+      <h3 class="project-title">Quantitative Trading Strategy – High Grade Copper Futures</h3>
+      <span class="project-date">November 2025</span>
+      <ul class="project-highlights">
+        <li>Macro-Factor &amp; Carry-Filtered strategy in Python; tested across in-sample (2024) and out-of-sample (2025) data</li>
+        <li>Dynamic position sizing and 3-sigma shock detection to filter tariff shock regimes</li>
+        <li>Boosted OOS returns from 2.56% → 10.2%; profit factor 0.67 → 4.0; max drawdown 4.14% → 0.64%</li>
+        <li>Training conducted by experts from Susquehanna, Cboe, and Nine Mile Financial</li>
+      </ul>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Backtesting</span>
+        <span class="project-tag">Futures</span>
+        <span class="project-tag">Macro Signals</span>
+        <span class="project-tag">Volatility Regimes</span>
+      </div>
+    </div>
+
     <!-- M&A -->
     <div class="project-card">
-      <span class="project-cat">Investment Banking · M&A</span>
+      <span class="project-cat">Deals · M&A Modelling</span>
       <h3 class="project-title">M&A Transaction Model – Accent Group & Super Retail Group</h3>
       <span class="project-date">June 2025</span>
       <ul class="project-highlights">
         <li>Integrated 3-statement financial models across 5-year standalone and post-acquisition scenarios</li>
         <li>DCF &amp; WACC estimation (6.92%) → indicative offer price of $3.75/share ($2.1B equity value)</li>
-        <li>Modelled $956M incremental debt capacity with covenant compliance</li>
-        <li>EPS accretion of +7.8% in FY26 scaling to +88% by FY30; 92.6% synergies retained by SRG</li>
+        <li>Modelled $956M incremental debt capacity with full covenant compliance</li>
+        <li>EPS accretion +7.8% in FY26 scaling to +88% by FY30; 92.6% synergies retained by SRG</li>
       </ul>
       <div class="project-tags">
         <span class="project-tag">M&A Modelling</span>
@@ -510,7 +532,7 @@
 
     <!-- LBO -->
     <div class="project-card">
-      <span class="project-cat">Private Equity · LBO</span>
+      <span class="project-cat">Deals · Private Equity · LBO</span>
       <h3 class="project-title">Leveraged Buyout Model – Panera</h3>
       <span class="project-date">July 2025</span>
       <ul class="project-highlights">
@@ -527,9 +549,27 @@
       </div>
     </div>
 
+    <!-- Survival Analysis -->
+    <div class="project-card">
+      <span class="project-cat">Data Science · Actuarial</span>
+      <h3 class="project-title">Survival Analysis of Influenza & COVID-19 Outcomes</h3>
+      <span class="project-date">March 2025</span>
+      <ul class="project-highlights">
+        <li>Kaplan-Meier estimators and Cox proportional hazards models on real-world clinical data</li>
+        <li>Key mortality drivers: obesity (+42.9%), cardiovascular disease (+13.1%), vaccination (−39.3%)</li>
+        <li>Model concordance of 0.656; disproved "COVID is just another flu" — 30.3% higher adjusted mortality risk</li>
+      </ul>
+      <div class="project-tags">
+        <span class="project-tag">Survival Analysis</span>
+        <span class="project-tag">Cox PH</span>
+        <span class="project-tag">Kaplan-Meier</span>
+        <span class="project-tag">R</span>
+      </div>
+    </div>
+
     <!-- Time Series -->
     <div class="project-card">
-      <span class="project-cat">Quantitative Finance · Risk</span>
+      <span class="project-cat">Quantitative Finance · Risk Analytics</span>
       <h3 class="project-title">Time-Series Risk & Forecasting Analysis – NVIDIA & AMD</h3>
       <span class="project-date">July 2025</span>
       <ul class="project-highlights">
@@ -566,54 +606,16 @@
       </div>
     </div>
 
-    <!-- COVID Predictive -->
-    <div class="project-card">
-      <span class="project-cat">Data Science · Predictive Modelling</span>
-      <h3 class="project-title">Predictive Modelling of COVID-19 Mortality Risk</h3>
-      <span class="project-date">July 2024</span>
-      <ul class="project-highlights">
-        <li>EDA &amp; feature engineering on large healthcare dataset; reduced predictors via correlation analysis</li>
-        <li>Compared GLMs, splines, decision trees, neural networks, LASSO, gradient boosting &amp; Random Forest</li>
-        <li>10-fold cross-validation &amp; hyperparameter tuning; optimal Spline Model: F1 = 0.77, AUC = 0.78, MSE = 0.27</li>
-        <li>Identified demographic disparities: male mortality 41.7% vs female 38.9%</li>
-      </ul>
-      <div class="project-tags">
-        <span class="project-tag">Machine Learning</span>
-        <span class="project-tag">LASSO</span>
-        <span class="project-tag">Random Forest</span>
-        <span class="project-tag">Python</span>
-        <span class="project-tag">R</span>
-      </div>
-    </div>
-
-    <!-- Survival Analysis -->
-    <div class="project-card">
-      <span class="project-cat">Actuarial · Biostatistics</span>
-      <h3 class="project-title">Survival Analysis of Influenza & COVID-19 Outcomes</h3>
-      <span class="project-date">March 2025</span>
-      <ul class="project-highlights">
-        <li>Kaplan-Meier estimators and Cox proportional hazards models on real-world clinical data</li>
-        <li>Key mortality drivers: obesity (+42.9%), cardiovascular disease (+13.1%), vaccination (−39.3%)</li>
-        <li>Model concordance of 0.656; disproved "COVID is just another flu" — 30.3% higher adjusted mortality risk</li>
-      </ul>
-      <div class="project-tags">
-        <span class="project-tag">Survival Analysis</span>
-        <span class="project-tag">Cox PH</span>
-        <span class="project-tag">Kaplan-Meier</span>
-        <span class="project-tag">R</span>
-      </div>
-    </div>
-
     <!-- HELP Indexation -->
     <div class="project-card">
-      <span class="project-cat">Policy Analysis · Actuarial</span>
+      <span class="project-cat">Data Analytics · Policy Analysis</span>
       <h3 class="project-title">Data-Driven Policy & Financial Impact Analysis – HELP Indexation</h3>
       <span class="project-date">November 2023</span>
       <ul class="project-highlights">
         <li>Modelled CPI-based indexation impact on Australia's $74B HELP loan portfolio across inflation scenarios</li>
         <li>Analysed CPI surge from 0.8% (2020) to 7.0% (2023); quantified $1,759 increase per borrower</li>
         <li>Estimated $3.6B+ aggregate debt growth across 3M+ Australians</li>
-        <li>Professional dashboards comparing CPI vs Wage Price Index mechanisms with policy impact insights</li>
+        <li>Professional Power BI dashboards comparing CPI vs Wage Price Index mechanisms with policy insights</li>
       </ul>
       <div class="project-tags">
         <span class="project-tag">Policy Modelling</span>
@@ -681,6 +683,21 @@
       </div>
     </div>
 
+    <div class="exp-item">
+      <div class="exp-left">
+        <span class="exp-period">Nov 2022 – Oct 2023</span>
+        <div class="exp-org">Actuarial Society of UNSW (ASOC)</div>
+        <div class="exp-loc">Kensington, NSW</div>
+      </div>
+      <div class="exp-right">
+        <div class="exp-role">Subcommittee Member, Peer Mentor & Camp Leader</div>
+        <ul class="exp-points">
+          <li>Mentored fellow actuarial students academically and socially, providing guidance on coursework, career pathways and professional development</li>
+          <li>Led the planning and execution of large-scale society initiatives reaching 500+ students, coordinating cross-functional teams to deliver impactful events</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -697,10 +714,10 @@
       <p style="margin-top:28px; font-size:15px; color:var(--warm-mid); font-weight:300; max-width:320px; line-height:1.8;">Open to opportunities in quantitative finance, investment banking, actuarial consulting, and data science.</p>
     </div>
     <div class="contact-links">
-      <a class="contact-link" href="mailto:vashishtaaryan6123@outlook.com">
+      <a class="contact-link" href="/cdn-cgi/l/email-protection#453324362d2c362d312424373c242b73747776052a3031292a2a2e6b262a28">
         <div>
           <span class="contact-link-label">Email</span>
-          <span class="contact-link-value">vashishtaaryan6123@outlook.com</span>
+          <span class="contact-link-value"><span class="__cf_email__" data-cfemail="473126342f2e342f332626353e262971767574072832332b28282c6924282a">[email&#160;protected]</span></span>
         </div>
         <span class="contact-link-arrow">→</span>
       </a>
@@ -732,7 +749,7 @@
 <!-- FOOTER -->
 <footer>
   <span class="footer-name">Aryan Vashishta</span>
-  <span class="footer-note">UNSW Sydney · 2025</span>
+  <span class="footer-note">UNSW Sydney · 2026</span>
 </footer>
 
 </body>
